@@ -63,3 +63,23 @@ a:hover {
 a:active {
   color: #c09f80;
 }
+
+.center {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.center .card {
+  border: 2px solid #c09f80;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 20px;
+  width: 100%;
+  background-color: #c09f80;
+  float: left;
+  font-size: 14px;
+}
